@@ -1,0 +1,88 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+/* Set a background color and style for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+/* Style the main container */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#searchInput {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 70%;
+}
+
+#searchButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #222;
+}
+
+/* Style the results container */
+#results {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Make Recipe Using Ingredients" button */
+#goToRecipePage {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#goToRecipePage:hover {
+    background-color: #0056b3;
+}
